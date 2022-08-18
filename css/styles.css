@@ -1,0 +1,253 @@
+/* variables */
+:root {
+  --realblack-color: #000;
+  --black-color: #212121;
+  --white-color: #fff;
+  --blue-color: #2196f3;
+  --darkgrey-color: #2f303a;
+  --grey-color: #757575;
+  --studioteam-color: #f5f4fa;
+}
+
+/* global styles */
+body {
+  font-family: Roboto, Raleway, sans-serif;
+  color: var(--black-color);
+}
+
+/* navigation styles */
+.menu {
+  background-color: var(--white-color);
+}
+
+.menu-web {
+  color: var(--blue-color);
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.menu-studio {
+  color: var(--realblack-color);
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.menu-studio-down {
+  color: var(--white-color);
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.menu-nav {
+  list-style-type: none;
+}
+
+.menu-nav-link {
+  color: var(--black-color);
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.menu-nav-link:hover,
+.menu-nav-link:focus {
+  color: var(--blue-color);
+}
+
+.menu-nav-mail,
+.menu-nav-tel {
+  color: var(--grey-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.menu-nav-mail:hover,
+.menu-nav-tel:hover,
+.menu-nav-mail:focus,
+.menu-nav-tel:focus {
+  color: var(--blue-color);
+}
+
+.menu-down {
+  background-color: var(--darkgrey-color);
+}
+.menu-down-address {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.menu-down-address-par1 {
+  color: var(--white-color);
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.71;
+}
+
+.menu-down-address-par1:hover,
+.menu-down-address-par1:focus {
+  color: var(--blue-color);
+}
+
+.menu-down-address-par2 {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.71;
+}
+
+.menu-down-address-par2:hover,
+.menu-down-address-par2:focus {
+  color: var(--blue-color);
+}
+
+.menu-down-address-par3 {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.71;
+}
+.menu-down-address-par3:hover,
+.menu-down-address-par3:focus {
+  color: var(--blue-color);
+}
+
+/* studio page styles */
+.studio {
+  background-color: var(--white-color);
+}
+
+.studio-slider {
+  background-color: var(--darkgrey-color);
+}
+
+.studio-slider > h1 {
+  color: var(--white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+}
+
+.studio-slider-button {
+  color: var(--white-color);
+  background: var(--blue-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  cursor: pointer;
+}
+
+.studio-slider-button:hover,
+.studio-slider-button:focus {
+  color: var(--blue-color);
+  background: var(--white-color);
+  cursor: pointer;
+}
+
+.studio-things-list {
+  list-style-type: none;
+}
+
+.studio-things-list-item {
+  color: var(--black-color);
+  font-weight: 700;
+  font-size: 14px;
+  font-language-override: 100%;
+}
+
+.studio-things-list-par {
+  color: var(--grey-color);
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.studio-what-heading {
+  color: var(--black-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+}
+
+.studio-what-list {
+  list-style-type: none;
+}
+.studio-team {
+  background-color: var(--studioteam-color);
+}
+.studio-team-heading {
+  color: var(--black-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+}
+
+.studio-team-list {
+  list-style-type: none;
+}
+
+.studio-team-list > li {
+  background-color: var(--white-color);
+}
+
+.studio-team-figcaption1 {
+  color: var(--black-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 118.75%;
+}
+
+.studio-team-figcaption2 {
+  color: var(--grey-color);
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+/* portfolio page styles */
+.filters-buttons {
+  list-style-type: none;
+}
+
+.filters-buttons button {
+  background: var(--studioteam-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  cursor: pointer;
+}
+
+.filters-buttons button:hover,
+.filters-buttons button:focus {
+  background: var(--blue-color);
+  color: var(--white-color);
+  cursor: pointer;
+}
+
+.projects-list {
+  list-style-type: none;
+}
+
+.projects-list > li {
+  background-color: var(--white-color);
+}
+
+.projects-list-figcaption {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 0.5;
+}
+
+.projects-list-figcaption-par {
+  color: var(--grey-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 0.53;
+}
