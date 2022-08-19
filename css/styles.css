@@ -93,13 +93,9 @@ body {
   line-height: 1.71;
 }
 
-.menu-down-address-par1:hover,
-.menu-down-address-par1:focus {
-  color: var(--blue-color);
-}
-
 .menu-down-address-par2 {
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
   font-size: 14px;
   font-style: normal;
   line-height: 1.71;
@@ -112,6 +108,7 @@ body {
 
 .menu-down-address-par3 {
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
   font-size: 14px;
   font-style: normal;
   line-height: 1.71;
