@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Studio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
     <link href="css/styles.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,179 +19,199 @@
   </head>
   <body>
     <header class="menu">
-      <div class="menu-logo">
-        <a href=""
-          ><span class="menu-web">Web</span>
-          <span class="menu-studio">Studio</span></a
-        >
-      </div>
-      <nav>
-        <ul class="menu-nav">
-          <li><a class="menu-nav-link" href="index.html">Agencja</a></li>
-          <li><a class="menu-nav-link" href="portfolio.html">Portfolio</a></li>
-          <li><a class="menu-nav-link" href="">Kontakt</a></li>
+      <div class="container">
+        <ul class="menu-list">
+          <li>
+            <a class="menu-list-link" href=""
+              ><span class="menu-web">Web</span
+              ><span class="menu-studio">Studio</span></a
+            >
+          </li>
+          <li>
+            <nav>
+              <ul class="menu-nav">
+                <li class="menu-nav-list">
+                  <a class="menu-nav-link" href="index.html">Agencja</a>
+                </li>
+                <li class="menu-nav-list">
+                  <a class="menu-nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="menu-nav-list">
+                  <a class="menu-nav-link" href="">Kontakt</a>
+                </li>
+              </ul>
+            </nav>
+          </li>
+          <li>
+            <a class="menu-nav-mail" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="menu-nav-tel" href="tel:&plus;48111111111"
+              >&plus;48 111 111 111</a
+            >
+          </li>
         </ul>
-      </nav>
-      <a class="menu-nav-mail" href="mailto:info@devstudio.com"
-        >info@devstudio.com</a
-      >
-      <a class="menu-nav-tel" href="tel:&plus;48111111111"
-        >&plus;48 111 111 111</a
-      >
+      </div>
     </header>
     <main class="studio">
-      <section class="studio-slider">
-        <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-        <button class="studio-slider-button" type="button">Zamów usługę</button>
+      <section class="section studio-slider">
+        <div class="container">
+          <div class="studio-slider-inside">
+            <h1>EFEKTYWNE ROZWIĄZANIA<br/>DLA WASZEGO BIZNESU</h1>
+            <button class="studio-slider-button" type="button"><p class="studio-slider-button-text">Zamów usługę</p></button>
+          </div>
+        </div>
       </section>
-      <div class="studio-things">
-        <ul class="studio-things-list">
-          <li>
-            <h3 class="studio-things-list-item">LOREM IPSUM</h3>
-            <p class="studio-things-list-par">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim,
-              dolores.
-            </p>
-          </li>
-          <li>
-            <h3 class="studio-things-list-item">LOREM IPSUM</h3>
-            <p class="studio-things-list-par">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim,
-              dolores.
-            </p>
-          </li>
-          <li>
-            <h3 class="studio-things-list-item">LOREM IPSUM</h3>
-            <p class="studio-things-list-par">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim,
-              dolores.
-            </p>
-          </li>
-          <li>
-            <h3 class="studio-things-list-item">LOREM IPSUM</h3>
-            <p class="studio-things-list-par">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim,
-              dolores.
-            </p>
-          </li>
-        </ul>
+      <div class="section studio-things">
+          <div class="container">
+          <ul class="studio-things-list">
+            <li>
+              <h3 class="studio-things-list-item">LOREM IPSUM</h3>
+              <p class="studio-things-list-par">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis blanditiis adipisci, error rerum laboriosam aliquid!
+              </p>
+            </li>
+            <li>
+              <h3 class="studio-things-list-item">LOREM IPSUM</h3>
+              <p class="studio-things-list-par">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex necessitatibus tempora delectus est repudiandae libero!
+              </p>
+            </li>
+            <li>
+              <h3 class="studio-things-list-item">LOREM IPSUM</h3>
+              <p class="studio-things-list-par">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque repudiandae possimus modi sequi aperiam optio!
+              </p>
+            </li>
+            <li>
+              <h3 class="studio-things-list-item">LOREM IPSUM</h3>
+              <p class="studio-things-list-par">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore impedit illo odio neque eligendi itaque.
+              </p>
+            </li>
+          </ul>
+        </div>
       </div>
-      <section class="studio-what">
-        <h2 class="studio-what-heading">Czym się zajmujemy</h2>
-        <ul class="studio-what-list">
-          <li>
-            <img
-              class="studio-what-list-img"
-              src="images/box1.jpg"
-              alt="two hands on the computer keyboard writing"
-              width="370"
-              height="294"
-            />
-          </li>
-          <li>
-            <img
-              class="studio-what-list-img"
-              src="images/box2.jpg"
-              alt="one hand of a woman writing on a laptop keyboard, second one holding a smartphone"
-              width="370"
-              height="294"
-            />
-          </li>
-          <li>
-            <img
-              class="studio-what-list-img"
-              src="images/box3.jpg"
-              alt="a tablet screen showing colorful scheme"
-              width="370"
-              height="294"
-            />
-          </li>
-        </ul>
+      <section class="section studio-what">
+        <div class="container">
+          <h2 class="studio-what-heading">Czym się zajmujemy</h2>
+          <ul class="studio-what-list">
+            <li>
+              <img
+                class="studio-what-list-img"
+                src="images/box1.jpg"
+                alt="two hands on the computer keyboard writing"
+              />
+            </li>
+            <li>
+              <img
+                class="studio-what-list-img"
+                src="images/box2.jpg"
+                alt="one hand of a woman writing on a laptop keyboard, second one holding a smartphone"
+              />
+            </li>
+            <li>
+              <img
+                class="studio-what-list-img"
+                src="images/box3.jpg"
+                alt="a tablet screen showing colorful scheme"
+              />
+            </li>
+          </ul>
+        </div>
       </section>
-      <section class="studio-team">
-        <h2 class="studio-team-heading">Nasz zespół</h2>
-        <ul class="studio-team-list">
-          <li>
-            <figure class="studio-team-fig">
-              <img
-                class="studio-team-fig-img"
-                src="images/img1.jpg"
-                alt="brown hair young man with beard and glasses smiling"
-                width="270"
-                height="260"
-              />
-              <figcaption>
-                <p class="studio-team-figcaption1">John Doe</p>
-                <p class="studio-team-figcaption2">Product Designer</p>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure class="studio-team-fig">
-              <img
-                class="studio-team-fig-img"
-                src="images/img2.jpg"
-                alt="blonde hair young woman with glasses smiling"
-                width="270"
-                height="260"
-              />
-              <figcaption>
-                <p class="studio-team-figcaption1">John Doe</p>
-                <p class="studio-team-figcaption2">Frontend Developer</p>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure class="studio-team-fig">
-              <img
-                class="studio-team-fig-img"
-                src="images/img3.jpg"
-                alt="brown hair young man with beard smiling"
-                width="270"
-                height="260"
-              />
-              <figcaption>
-                <p class="studio-team-figcaption1">John Doe</p>
-                <p class="studio-team-figcaption2">Marketing</p>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure class="studio-team-fig">
-              <img
-                class="studio-team-fig-img"
-                src="images/img4.jpg"
-                alt="brown hair young man with beard and glasses"
-                width="270"
-                height="260"
-              />
-              <figcaption>
-                <p class="studio-team-figcaption1">John Doe</p>
-                <p class="studio-team-figcaption2">UI Designer</p>
-              </figcaption>
-            </figure>
-          </li>
-        </ul>
+      <section class="section studio-team">
+        <div class="container">
+          <h2 class="studio-team-heading">Nasz zespół</h2>
+          <ul class="studio-team-list">
+            <li>
+              <figure class="studio-team-fig">
+                <img
+                  class="studio-team-fig-img"
+                  src="images/img1.jpg"
+                  alt="brown hair young man with beard and glasses smiling"
+                  width="270"
+                  height="260"
+                />
+                <figcaption>
+                  <p class="studio-team-figcaption1">John Doe</p>
+                  <p class="studio-team-figcaption2">Product Designer</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure class="studio-team-fig">
+                <img
+                  class="studio-team-fig-img"
+                  src="images/img2.jpg"
+                  alt="blonde hair young woman with glasses smiling"
+                  width="270"
+                  height="260"
+                />
+                <figcaption>
+                  <p class="studio-team-figcaption1">John Doe</p>
+                  <p class="studio-team-figcaption2">Frontend Developer</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure class="studio-team-fig">
+                <img
+                  class="studio-team-fig-img"
+                  src="images/img3.jpg"
+                  alt="brown hair young man with beard smiling"
+                  width="270"
+                  height="260"
+                />
+                <figcaption>
+                  <p class="studio-team-figcaption1">John Doe</p>
+                  <p class="studio-team-figcaption2">Marketing</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure class="studio-team-fig">
+                <img
+                  class="studio-team-fig-img"
+                  src="images/img4.jpg"
+                  alt="brown hair young man with beard and glasses"
+                  width="270"
+                  height="260"
+                />
+                <figcaption>
+                  <p class="studio-team-figcaption1">John Doe</p>
+                  <p class="studio-team-figcaption2">UI Designer</p>
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
       </section>
+    </div>
     </main>
     <footer class="menu-down">
-      <span class="menu-web">Web</span>
-      <span class="menu-studio-down">Studio</span>
-      <address class="menu-down-address">
-        <p class="menu-down-address-par1">
-          m. Warszawa, Aleje Jerozolimskie 21
-        </p>
-        <p>
-          <a class="menu-down-address-par2" href="mailto:info@example.com"
-            >info@example.com</a
-          >
-        </p>
-        <p>
-          <a class="menu-down-address-par3" href="tel:&plus;48111111111"
-            >+48 111 111 111</a
-          >
-        </p>
-      </address>
+      <div class="container">
+        <div class="menu-down-logo">
+          <span class="menu-web">Web</span>
+          <span class="menu-studio-down">Studio</span>
+        </div>
+        <address class="menu-down-address">
+          <p class="menu-down-address-par1">
+            m. Warszawa, Aleje Jerozolimskie 21
+          </p>
+          <p>
+            <a class="menu-down-address-par2" href="mailto:info@example.com"
+              >info@example.com</a
+            >
+          </p>
+          <p>
+            <a class="menu-down-address-par3" href="tel:&plus;48111111111"
+              >+48 111 111 111</a
+            >
+          </p>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
